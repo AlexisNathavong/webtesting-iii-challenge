@@ -9,6 +9,12 @@ class Dashboard extends React.Component {
     closed: false,
   };
 
+  // asyncFunc = () => {
+  //   setTimeout((resolve) => {
+  //     resolve('Success!')
+  //   }, 1000);
+  // }
+
   render() {
     const { closed, locked } = this.state;
 
